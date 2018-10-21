@@ -55,7 +55,7 @@ B: 10.0
 ```
 * Now lets return some money from B to A
 ```java
- System.out.println("B -> A:5");
+System.out.println("B -> A:5");
 walletB.sendFunds(walletA.getPublicKey(), 5f).processTransaction();
 System.out.println("A: " + walletA.getBalance());
 System.out.println("B: " + walletB.getBalance());
